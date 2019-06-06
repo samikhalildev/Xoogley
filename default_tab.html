@@ -16,7 +16,7 @@
 <body>
 
     <div class="overlay">
-
+<!-- 
         <div class="social-media center">
             <span class="icon">
                 <a href="https://google.com/" target="_blank">
@@ -47,8 +47,19 @@
                     <i class="fab fa-reddit-alien fa-2x"></i>
                 </a>
             </span>
-        </div>
+        </div> -->
 
+
+        <div class="row row-search">
+            <form id="form" action="https://www.google.com/search" method="GET" name="f" class="col s12">
+                
+                <div class="input-field center">
+                    <input autofocus="autofocus" style="border: none" class="input-search" id="search-input" name="q" autocomplete="off" type="text" title="Search" placeholder=""/>
+                </div>
+                
+                <div id="auto-complete"/>
+            </form>
+        </div>
     </div>
 
     <script src="js/DefaultTab.js"></script>
